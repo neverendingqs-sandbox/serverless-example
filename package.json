@@ -1,0 +1,24 @@
+{
+  "name": "serverless-example",
+  "version": "1.0.0",
+  "description": "Simple Serverless Framework hello world example",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "eslint . && sls deploy -n"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neverendingqs-sandbox/serverless-example.git"
+  },
+  "author": "neverendingqs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neverendingqs-sandbox/serverless-example/issues"
+  },
+  "homepage": "https://github.com/neverendingqs-sandbox/serverless-example#readme",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "serverless": "1.11.0",
+    "serverless-plugin-include-dependencies": "^2.0.0"
+  }
+}

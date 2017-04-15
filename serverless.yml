@@ -1,0 +1,26 @@
+service: serverless-example
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+  stage: dev
+  region: us-east-1
+
+package:
+  exclude:
+    - test/**
+    - .editorconfig
+    - .eslintrc
+    - .travis.yml
+    - README.md
+
+plugins:
+  - serverless-plugin-include-dependencies
+
+functions:
+  hello:
+    handler: src/server.handler
+    events:
+      - http:
+          path: /
+          method: GET

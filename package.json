@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/neverendingqs-sandbox/serverless-example#readme",
   "devDependencies": {
-    "eslint": "^3.19.0",
+    "eslint": "^4.4.1",
     "serverless": "1.11.0",
     "serverless-plugin-include-dependencies": "^2.0.0"
   }
